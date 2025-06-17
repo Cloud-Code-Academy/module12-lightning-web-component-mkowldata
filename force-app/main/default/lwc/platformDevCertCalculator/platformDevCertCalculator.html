@@ -7,7 +7,11 @@
         name="devFundamentals" 
         label="Developer Fundamentals: 23%" 
         value={devFundamentalScore}
+<<<<<<< HEAD
         onclick={calculateScore}
+=======
+       
+>>>>>>> 2567dc53878c80b9744b40fa368ad8de9a4a50f4
         onchange={handleChange}
         ></lightning-input><br>
         <lightning-input 
@@ -15,7 +19,11 @@
         name="processAuto" 
         label="Process Automation: 30%" 
         value={processAutomationScore}
+<<<<<<< HEAD
         onclick={calculateScore}
+=======
+        
+>>>>>>> 2567dc53878c80b9744b40fa368ad8de9a4a50f4
         onchange={handleChange}
         ></lightning-input><br>
         <lightning-input 
@@ -23,7 +31,11 @@
         name="userInterface" 
         label="User Interface: 25%" 
         value={userInterfaceScore}
+<<<<<<< HEAD
         onclick={calculateScore}
+=======
+        
+>>>>>>> 2567dc53878c80b9744b40fa368ad8de9a4a50f4
         onchange={handleChange}
         ></lightning-input><br>
         <lightning-input 
@@ -31,7 +43,11 @@
         name="testDebugDeploy" 
         label="Testing, Debugging and Deployment: 22%"
         value={testingScore} 
+<<<<<<< HEAD
         onclick={calculateScore}
+=======
+        
+>>>>>>> 2567dc53878c80b9744b40fa368ad8de9a4a50f4
         onchange={handleChange}
         ></lightning-input><br>
     </div>
@@ -40,9 +56,15 @@
     <!--Display results-->
     <div slot="footer">
         <h1 class="slds-text-heading_large slds-text-title_bold slds-text-title_caps resultText"> Certification Result</h1>
+<<<<<<< HEAD
     <p class="slds-text-heading_medium slds-m-top_x-small">  Certification Score: <span class="slds-text-color_destructive">{certificationScore}%</span></p>
     <div>
         <h1 class="slds-text-heading_large">Previous Attempt</h1>
+=======
+    <p class="slds-text-heading_medium slds-m-top_small">  Certification Score: <span class="slds-text-color_destructive">{certificationScore}%</span></p>
+    <div>
+        <h1 class="slds-text-heading_small slds-text-align_left">Previous Attempt(s)</h1>
+>>>>>>> 2567dc53878c80b9744b40fa368ad8de9a4a50f4
         <lightning-tabset>
         <div for:each={attemptHistory} for:item="attempt" key={attempt.Id}>
             <lightning-tab label={attempt.Id}>
